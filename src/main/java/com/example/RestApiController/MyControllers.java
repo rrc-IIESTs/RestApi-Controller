@@ -19,10 +19,10 @@ public class MyControllers {
     public List<User> getAllUser(){
         List<User> listOfUsers = new ArrayList<>();
 
-        //Another way to add all users to my list
-//        for(User user: users.values()){
-//            listOfUsers.add(user);
-//        }
+//        Another way to add all users to my list
+      for(User user: users.values()){
+            listOfUsers.add(user);
+        }
 
 
         for(Map.Entry<Integer, User> entry :users.entrySet()){
